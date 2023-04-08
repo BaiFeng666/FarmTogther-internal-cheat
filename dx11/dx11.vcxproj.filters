@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{c0dc6f2a-348b-4e08-bac0-74a82dc0b5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kiero">
+      <UniqueIdentifier>{ead4e2f0-e6a4-4d14-b66e-2b78e83969a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kiero\MinHook">
+      <UniqueIdentifier>{748e4230-4489-4d3d-ae6c-7156359cc2b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\include\MinHook.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\buffer.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\hde\hde32.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\hde\hde64.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\hde\pstdint.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\hde\table32.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\hde\table64.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\minhook\src\trampoline.h">
+      <Filter>Kiero\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiero\kiero.h">
+      <Filter>Kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="src\includes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\g_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Feature\Offsets.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gui\Menu.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Feature\Loop.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gui\Init.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Feature\Feature.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Other\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\minhook\src\buffer.c">
+      <Filter>Kiero\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\minhook\src\hde\hde32.c">
+      <Filter>Kiero\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\minhook\src\hde\hde64.c">
+      <Filter>Kiero\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\minhook\src\hook.c">
+      <Filter>Kiero\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\minhook\src\trampoline.c">
+      <Filter>Kiero\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiero\kiero.cpp">
+      <Filter>Kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Other\memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Kiero\minhook\dll_resources\MinHook.def">
+      <Filter>Kiero\MinHook</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>Kiero\MinHook</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
